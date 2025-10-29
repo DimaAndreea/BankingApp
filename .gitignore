@@ -1,0 +1,24 @@
+# idea / project settings
+.idea/
+*.iml
+
+# build folders
+out/
+target/
+bin/
+
+# os junk
+.DS_Store
+Thumbs.db
+
+# logs and temp
+*.log
+# keep audit.csv for project evaluation
+
+# environment and credentials
+.env
+config.properties
+
+# docker sensitive files
+docker-compose.yml
+docker/
